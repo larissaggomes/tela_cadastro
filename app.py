@@ -45,9 +45,10 @@ class App(ctk.CTk):
             folha=ficheiro.active
             folha['A1']="Nome Completo"
             folha['B1']="Contato"
-            folha['C1']="Genero"
-            folha['D1']="Enderco"
-            folha['G1']="Observações"
+            folha['C1']="Idade"
+            folha['D1']="Genero"
+            folha['E1']="Enderco"
+            folha['F1']="Observações"
 
             ficheiro.save("Clientes.xlsx")
 
