@@ -141,6 +141,5 @@ class App(ctk.CTk):
 
 # o que inicia a janela do sistema
 if __name__=="__main__":
-
     app = App()
     app.mainloop()
