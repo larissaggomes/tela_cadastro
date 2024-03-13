@@ -79,7 +79,7 @@ class App(ctk.CTk):
 
         # função de limpar dados
         def clear():
-            name_entry.get("")
+            name_value.get("")
             contact_value.get("")
             age_value.get("")
             gender_combobox.get("")
